@@ -1,10 +1,10 @@
-package temelKavramlarVeDeğişkenler;
+package temelKavramlarVeDegiskenler;
 
 import java.util.Scanner;
 
 public class gradeAverage {
     public static void main(String[] args) {
-//Değişkenler
+        //Değişkenler
         int mat, fizik, kimya, turkce, tarih, muzik;
 
         //Scanner Sınıfı
