@@ -23,12 +23,12 @@ public class userLogin {
             System.out.print("Seçiminiz : ");
             a = inp.nextInt();
 
-            yeniSifre = inp.nextLine();
 
             switch (a) {
                 case 1:
+                    Scanner input = new Scanner(System.in);
                     System.out.print("Yeni Şifrenizi Giriniz : ");
-                    yeniSifre = inp.nextLine();
+                    yeniSifre = input.nextLine();
 
                     if (yeniSifre.equals("java123")) {
                         System.out.println("Şifre oluşturulamadı, lütfen başka şifre giriniz.");
