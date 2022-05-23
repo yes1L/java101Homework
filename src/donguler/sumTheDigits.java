@@ -8,16 +8,8 @@ public class sumTheDigits {
         System.out.print("Sayı giriniz : ");
         int number = inp.nextInt();
         int tempNumber = number;
-        int basNumber = 0;
         int basValue;
-        int basPow;
         int result = 0;
-
-        while (tempNumber != 0) {
-            tempNumber /= 10;
-            basNumber++;
-        }
-        tempNumber = number;
 
         while (tempNumber != 0) {
             basValue = tempNumber % 10;
